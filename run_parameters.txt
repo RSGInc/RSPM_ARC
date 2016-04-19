@@ -52,7 +52,7 @@ CommVehDvmtMethod = "HouseholdDvmt"
 RunHhSynthesis = TRUE
 RunTravel = FALSE
 RunOutputs = FALSE
-UseSavedRandomSeed = TRUE
+UseSavedRandomSeed = FALSE
 RunYears = c( "2005", "2038" )
 
 # Uncomment the following lines to run the travel model for the base year and any other specified years without tabulating outputs 
