@@ -9,7 +9,7 @@ BaseYear = "2010"
 
 #Identify all the model years that could be run
 #----------------------------------------------
-Yr = c( "2005", "2010", "2038")
+Yr = c( "2010", "2038")
 
 #Specify whether a VMT tax surcharge is to be calculated
 #-------------------------------------------------------
@@ -36,7 +36,7 @@ CommVehDvmtMethod = "HouseholdDvmt"
 RunHhSynthesis = TRUE
 RunTravel = FALSE
 RunOutputs = FALSE
-RunYears = BaseYear
+RunYears = "2010"
 UseSavedRandomSeed = FALSE
 PlotCalibration = FALSE
 Shapefile = c(Filename="RVMPO_Districts", DistrictField="DISTRICT", DivisionField="DIVISION")
@@ -49,11 +49,11 @@ Shapefile = c(Filename="RVMPO_Districts", DistrictField="DISTRICT", DivisionFiel
 
 #Uncomment the following lines to complete the household synthesis for other past and/or future years
 #----------------------------------------------------------------------------------------------------
-#RunHhSynthesis = TRUE
+#RunHhSynthesis = FALSE
 #RunTravel = FALSE
-#RunOutputs = FALSE
+#RunOutputs = TRUE
 #UseSavedRandomSeed = TRUE
-#RunYears = c( "2005", "2038" )
+#RunYears = c( "2010", "2038" )
 
 # Uncomment the following lines to run the travel model for the base year and any other specified years without tabulating outputs 
 #---------------------------------------------------------------------------------------------------------------------------------
@@ -68,7 +68,7 @@ Shapefile = c(Filename="RVMPO_Districts", DistrictField="DISTRICT", DivisionFiel
 #RunHhSynthesis = FALSE
 #RunTravel = FALSE
 #RunOutputs = TRUE
-#RunYears = c( "2005", "2010", "2038" )
+#RunYears = c( "2010", "2038" )
 
 
 
